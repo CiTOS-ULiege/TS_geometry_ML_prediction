@@ -27,29 +27,29 @@ The machine-learning workflow and implementation were developed by Jingxing Chen
 ```text
 TS_geometry_ML_prediction/
 ├── README.md
-├── TS_geometry_ML_prediction/
-│   ├── datasets/
-│   │   ├── reaction_B_dataset.csv
-│   │   ├── reaction_B_external-set.csv
-│   │   ├── reaction_C_dataset.csv
-│   │   └── reaction_C_external-set.csv
-│   ├── reaction_B_descriptor_screening.py
-│   ├── reaction_B_machine_learning_model.py
-│   ├── reaction_B_method_comparison.py
-│   ├── reaction_B_external_test_prediction.py
-│   ├── reaction_C_descriptor_screening.py
-│   ├── reaction_C_machine_learning_model.py
-│   ├── reaction_C_method_comparison.py
-│   ├── reaction_C_external_test_prediction.py
-│   └── results/
-│       ├── reaction_B_descriptor_screening
-│       ├── reaction_B_ml_results
-│       ├── reaction_B_method_comparison
-│       ├── reaction_B_external_test_predictions
-│       ├── reaction_C_descriptor_screening
-│       ├── reaction_C_ml_results
-│       ├── reaction_C_method_comparison
-│       └── reaction_C_external_test_predictions
+└──TS_geometry_ML_prediction/
+       ├── datasets/
+       │   ├── reaction_B_dataset.csv
+       │   ├── reaction_B_external-set.csv
+       │   ├── reaction_C_dataset.csv
+       │   └── reaction_C_external-set.csv
+       ├── reaction_B_descriptor_screening.py
+       ├── reaction_B_machine_learning_model.py
+       ├── reaction_B_method_comparison.py
+       ├── reaction_B_external_test_prediction.py
+       ├── reaction_C_descriptor_screening.py
+       ├── reaction_C_machine_learning_model.py
+       ├── reaction_C_method_comparison.py
+       ├── reaction_C_external_test_prediction.py
+       ├── results/
+       ├── reaction_B_descriptor_screening
+       ├── reaction_B_ml_results
+       ├── reaction_B_method_comparison
+       ├── reaction_B_external_test_predictions
+       ├── reaction_C_descriptor_screening
+       ├── reaction_C_ml_results
+       ├── reaction_C_method_comparison
+       └── reaction_C_external_test_predictions
 ```
 ## How to cite this material
 
