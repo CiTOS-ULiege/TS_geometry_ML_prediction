@@ -1,0 +1,38 @@
+Reaction B ridge-regression models
+y = a*(Reaction A geometry) + b*(descriptor) + c
+
+angle | σp+
+y = 0.54072288*x_reference + -1.5255697*x_descriptor + 39.972082
+n=11; training R2=0.930886; LOOCV Q2=0.878676; LOOCV MAE=0.422151
+
+angle | σp
+y = 1.1059126*x_reference + -2.5129964*x_descriptor + -22.533202
+n=11; training R2=0.847211; LOOCV Q2=0.713388; LOOCV MAE=0.637431
+
+angle | σp-
+y = 2.43619*x_reference + -0.47755279*x_descriptor + -170.0038
+n=10; training R2=0.676282; LOOCV Q2=0.287792; LOOCV MAE=0.875132
+
+bond | σp+
+y = 0.0036389941*x_reference + 0.083031064*x_descriptor + 2.2087367
+n=11; training R2=0.952129; LOOCV Q2=0.931844; LOOCV MAE=0.013350
+
+bond | σp
+y = 0.0093049042*x_reference + 0.17256305*x_descriptor + 2.1868647
+n=11; training R2=0.871462; LOOCV Q2=0.818701; LOOCV MAE=0.023324
+
+bond | σp-
+y = 0.038545892*x_reference + 0.17931376*x_descriptor + 2.1201931
+n=10; training R2=0.463297; LOOCV Q2=0.237955; LOOCV MAE=0.043285
+
+dihedral | σp
+y = -0.080559434*x_reference + -3.6113909*x_descriptor + 171.16572
+n=11; training R2=0.248444; LOOCV Q2=-0.486267; LOOCV MAE=2.635096
+
+dihedral | σp+
+y = -0.3201655*x_reference + -0.38115013*x_descriptor + 191.07056
+n=11; training R2=0.187968; LOOCV Q2=-0.760887; LOOCV MAE=3.035354
+
+dihedral | σp-
+y = -0.27670561*x_reference + -8.6114749*x_descriptor + 186.7455
+n=10; training R2=0.577857; LOOCV Q2=-1.158026; LOOCV MAE=3.224021
