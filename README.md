@@ -14,7 +14,7 @@ Affiliations: \
 <sup>b</sup> WEL Research Institute, Avenue Pasteur 6, B-1300 Wavre, Belgium
 
 ##
-Each regression model uses the corresponding Reaction A transition-state geometry together with a single numerical descriptor to predict one geometric parameter, bond length, angle, or dihedral, for Reaction B or Reaction C.
+Each regression model uses the corresponding Reaction A transition-state geometry together with a single numerical descriptor to predict one geometric parameter—bond length, angle, or dihedral—for Reaction B or Reaction C.
 
 The workflow separates **descriptor screening** from **model development**. Descriptor-screening scripts compare a broad candidate set of Hammett-related and DFT-derived substituent and rank them by LOOCV Q². The machine-learning scripts then build the final Hammett-based models (σp+, σp, σp− by default), export fitted equations, and support downstream external validation.
 
